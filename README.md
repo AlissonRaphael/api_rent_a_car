@@ -1,8 +1,21 @@
 # Rent a Car
 [![GitHub](https://img.shields.io/github/license/AlissonRaphael/api_rent_a_car)](https://github.com/AlissonRaphael/api_rent_a_car/blob/main/LICENSE)
-[![Node](https://img.shields.io/badge/Node.js-8.5.0-1abc9c.svg)](https://nodejs.org/en/)
 
 This repository contains all the files of an api dedicated to the car rental service. It includes category registration, category file import, category listing. Registration and listing of cars. Registration and listing of car specifications and registration, login, password recovery for users, in addition to the creation of car rentals by users.
+
+## Techs
+![](https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_typescript.jpg)
+![](https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_nodejs.jpg)
+![](https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_express.jpg)
+![](https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_typeorm.jpg)
+![](https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_postgres.jpg)
+![](https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_swagger.jpg)
+![](https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_jwt.jpg)
+![](https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_dayjs.jpg)
+![](https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_handlebars.jpg)
+![](https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_jest.jpg)
+![](https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_eslint.jpg)
+![](https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_prettier.jpg)
 
 
 ## Contents
