@@ -4,24 +4,30 @@
 This repository contains all the files of an api dedicated to the car rental service. It includes category registration, category file import, category listing. Registration and listing of cars. Registration and listing of car specifications and registration, login, password recovery for users, in addition to the creation of car rentals by users.
 
 ## Techs
-![](https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_typescript.jpg)
-![](https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_nodejs.jpg)
-![](https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_express.jpg)
-![](https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_typeorm.jpg)
-![](https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_postgres.jpg)
-![](https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_swagger.jpg)
-![](https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_jwt.jpg)
-![](https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_dayjs.jpg)
-![](https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_handlebars.jpg)
-![](https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_jest.jpg)
-![](https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_eslint.jpg)
-![](https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_prettier.jpg)
+<p align="center">
+  <img src="https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_typescript.jpg">
+  <img src="https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_nodejs.jpg">
+  <img src="https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_express.jpg">
+  <img src="https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_typeorm.jpg">
+  <img src="https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_postgres.jpg">
+  <img src="https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_swagger.jpg">
+  <img src="https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_jwt.jpg">
+  <img src="https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_dayjs.jpg">
+  <img src="https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_handlebars.jpg">
+  <img src="https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_jest.jpgg">
+  <img src="https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_eslint.jpg">
+  <img src="https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_prettier.jpg">
+</p>
 
 ## Api
-![](https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_api.png)
+<p align="center">
+  <img src="https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_api.png">
+</p>
 
 ## Database Relationship
-![](https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_relationship.png)
+<p align="center">
+  <img width="70%" src="https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_relationship.png">
+</p>
 
 ## Contents
 - [Installation](#installation)
