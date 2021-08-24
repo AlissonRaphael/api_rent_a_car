@@ -17,6 +17,9 @@ This repository contains all the files of an api dedicated to the car rental ser
 ![](https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_eslint.jpg)
 ![](https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_prettier.jpg)
 
+## Api
+![](https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_api.png)
+
 ## Database Relationship
 ![](https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_relationship.png)
 
