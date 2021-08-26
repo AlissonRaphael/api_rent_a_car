@@ -1,0 +1,281 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Locar Documentarion",
+    "description": "This is an API",
+    "version": "1.0.0",
+    "content": {
+      "email": "alissonraphaeloliveira@gmail.com.br"
+    }
+  },
+
+  "paths": {
+    "/categories": {
+
+      "post": {
+        "tags": ["Category"],
+        "sumary": "Create a car category",
+        "description": "Create a new car category through json with an object containing a name and a brief description of the category.",
+        "security": [
+          { "bearerAuth": [] }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "name": {  "type": "string" },
+                  "description": {  "type": "string" }
+                },
+                "example": {
+                  "name": "SUV",
+                  "description": "Categoria de carro SUV"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": { "description": "Created" },
+          "500": { "description": "Category already exists" }
+        }
+      },
+
+      "get": {
+        "tags": ["Category"],
+        "sumary": "List all categories",
+        "description": "Returns a json file with an array listing all registered categories.",
+        "responses": {
+          "200": {
+            "description": "List all categories",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "properties": {
+                      "name": {  "type": "string" },
+                      "description": {  "type": "string" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+    },
+
+    "/categories/import": {
+
+      "post": {
+        "tags": ["Category"],
+        "sumary": "Import categories",
+        "description": "Imports a .csv file with category names and descriptions.",
+        "security": [
+          { "bearerAuth": [] }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "file": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": { "description": "Created" },
+          "500": { "description": "Category already exists" }
+        }
+      }
+
+    },
+
+    "/specification": {
+
+      "post": {
+        "tags": ["Specifications"],
+        "sumary": "Create a specification",
+        "description": "Create specs for cars",
+        "security": [
+          { "bearerAuth": [] }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/definitions/Specification"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": { "description": "Created" },
+          "500": { "description":"Specification already exists" }
+        }
+      }
+
+    },
+
+    "/sessions": {
+      "post": {
+        "tags": ["Session"],
+        "summary": "Authentication user",
+        "description": "Authentication user",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "email": {
+                    "type": "string"
+                  },
+                  "password": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "400": {
+            "description": "Email or password incorrect!"
+          }
+        }
+      }
+    },
+
+    "/cars": {
+      "post": {
+        "tags": ["Cars"],
+        "summary": "Create a new car",
+        "description": "Create a new car",
+        "security": [
+          { "bearerAuth": [] }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/definitions/Car"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Car already exists!"
+          }
+        }
+      }
+    },
+
+    "/cars/images/{id}": {
+      "post": {
+        "tags": ["Cars"],
+        "summary": "Upload images",
+        "description": "Upload images",
+        "security": [
+          { "bearerAuth": [] }
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Car_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "images": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Created"
+          }
+        }
+      }
+    }
+  },
+
+
+  "definitions": {
+    "Specification": {
+      "type": "object",
+      "properties": {
+        "name": {  "type": "string" },
+        "description": {  "type": "string" }
+      },
+      "example": {
+        "name": "Câmbio automático",
+        "description": "Carro com câmbio automático"
+      }
+    },
+    "Car": {
+      "type": "object",
+      "properties": {
+        "name": {  "type": "string" },
+        "description": {  "type": "string" },
+        "daily_rate": {  "type": "number" },
+        "license_plate": {  "type": "string" },
+        "fine_amount": {  "type": "number" },
+        "brand": {  "type": "string" },
+        "category_id": {  "type": "string" }
+      },
+      "example": {
+        "name": "Range Rover",
+        "description": "Carro executivo de luxo",
+        "daily_rate": 253.00,
+        "license_plate": "ALI-3948",
+        "fine_amount": 200,
+        "brand": "Land Rover",
+        "category_id": "9ad3b0d2-bfbe-4f47-a7c2-2458679dd72d"
+      }
+    }
+  },
+
+  "components": {
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  }
+}
