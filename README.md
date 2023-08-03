@@ -4,30 +4,17 @@
 This repository contains all the files of an api dedicated to the car rental service. It includes category registration, category file import, category listing. Registration and listing of cars. Registration and listing of car specifications and registration, login, password recovery for users, in addition to the creation of car rentals by users.
 
 ## Techs
-<p align="center">
-  <img src="https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_typescript.jpg">
-  <img src="https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_nodejs.jpg">
-  <img src="https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_express.jpg">
-  <img src="https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_typeorm.jpg">
-  <img src="https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_postgres.jpg">
-  <img src="https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_swagger.jpg">
-  <img src="https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_jwt.jpg">
-  <img src="https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_dayjs.jpg">
-  <img src="https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_handlebars.jpg">
-  <img src="https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_jest.jpg">
-  <img src="https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_eslint.jpg">
-  <img src="https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_prettier.jpg">
-</p>
-
-## Api
-<p align="center">
-  <img src="https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_api.png">
-</p>
-
-## Database Relationship
-<p align="center">
-  <img width="70%" src="https://github.com/AlissonRaphael/api_rent_a_car/blob/main/.github/readme_relationship.png">
-</p>
+![GithubPages Badge](https://img.shields.io/badge/-TypeScript-000?style=flat-square&logo=typescript&logoColor=white&color=3178C6)
+![GithubPages Badge](https://img.shields.io/badge/-Node.js-000?style=flat-square&logo=nodedotjs&logoColor=white&color=339933)
+![GithubPages Badge](https://img.shields.io/badge/-Express-000?style=flat-square&logo=express&logoColor=white&color=000000)
+![GithubPages Badge](https://img.shields.io/badge/-TypeORM-000?style=flat-square&logo=typescript&logoColor=white&color=F40D12)
+![GithubPages Badge](https://img.shields.io/badge/-PostgresSQL-000?style=flat-square&logo=postgresql&logoColor=white&color=4169E1)
+![GithubPages Badge](https://img.shields.io/badge/-Swagger-000?style=flat-square&logo=swagger&logoColor=black&color=85EA2D)
+![GithubPages Badge](https://img.shields.io/badge/-Day.JS-000?style=flat-square&logo=javascript&logoColor=black&color=F7DF1E)
+![GithubPages Badge](https://img.shields.io/badge/-Handlebars.js-000?style=flat-square&logo=handlebarsdotjs&logoColor=white&color=000000)
+![GithubPages Badge](https://img.shields.io/badge/-Jest-000?style=flat-square&logo=jest&logoColor=white&color=C21325)
+![GithubPages Badge](https://img.shields.io/badge/-ESLint-000?style=flat-square&logo=eslint&logoColor=white&color=4B32C3)
+![GithubPages Badge](https://img.shields.io/badge/-Prettier-000?style=flat-square&logo=prettier&logoColor=black&color=F7B93E)
 
 ## Contents
 - [Installation](#installation)
